@@ -27,15 +27,36 @@ body {
     display: flex;
 }
 
-/* Header and Navigation */
+a,
+h1,
+h3,
+.title p,
+button {
+    color: #F9FAF8;
+}
+
+h1,
+h2 {
+    font-weight: 900;
+}
 
 .header {
     justify-content: space-between;
+    align-content: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 48px;
 }
 
 a {
     text-decoration: none;
-    color: white;
 }
 
 ul {
@@ -45,4 +66,36 @@ ul {
 .nav {
     display: flex;
     gap: 16px;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0;
+    font-weight: 900;
+}
+
+.top img {
+    width: 550px;
+}
+
+.title p,
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.title p {
+    margin-bottom: 8px;
+}
+
+.top {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    justify-content: space-between;
+    gap: 24px;
 }
