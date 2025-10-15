@@ -22,8 +22,8 @@ body {
 .middle-2,
 .bottom,
 .footer {
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 175px;
+    padding-right: 175px;
     display: flex;
 }
 
@@ -96,7 +96,7 @@ a {
     padding-top: 120px;
     padding-bottom: 120px;
     justify-content: space-between;
-    gap: 40px;
+    gap: 45px;
 }
 
 h2 {
