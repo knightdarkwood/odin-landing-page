@@ -93,8 +93,8 @@ a {
 }
 
 .top {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     justify-content: space-between;
     gap: 40px;
 }
@@ -152,4 +152,8 @@ h2,
 .author {
     font-size: 28px;
     text-align: right;
+}
+
+.banner {
+    background-color: #3882F6;
 }
