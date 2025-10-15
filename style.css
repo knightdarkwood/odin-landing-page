@@ -98,3 +98,40 @@ a {
     justify-content: space-between;
     gap: 40px;
 }
+
+h2 {
+    font-size: 36px;
+    padding: 36px;
+}
+
+h2,
+.quote {
+    color: #1f2937;
+}
+
+.middle-1 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    padding-bottom: 140px;
+    gap: 36px;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.random-info img {
+    width: 160px;
+}
+
+.random-info p {
+    width: 160px;
+    text-align: center;
+}
