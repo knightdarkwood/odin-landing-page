@@ -31,7 +31,8 @@ a,
 h1,
 h3,
 .title p,
-button {
+button,
+.banner {
     color: #F9FAF8;
 }
 
@@ -76,6 +77,7 @@ button {
     padding-bottom: 5px;
     border: 0;
     font-weight: 900;
+    cursor: pointer;
 }
 
 .top img {
@@ -156,4 +158,23 @@ h2,
 
 .banner {
     background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    flex: 1;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bottom {
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.banner button {
+    border: 2px solid #E5E7EB;
+    background-color: transparent;
+    color: #E5E7EB;
 }
