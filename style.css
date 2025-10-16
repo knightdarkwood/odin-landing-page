@@ -32,7 +32,8 @@ h1,
 h3,
 .title p,
 button,
-.banner {
+.banner,
+.footer {
     color: #F9FAF8;
 }
 
@@ -71,8 +72,8 @@ ul {
 button {
     background-color: #3882F6;
     border-radius: 5px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
     padding-top: 5px;
     padding-bottom: 5px;
     border: 0;
@@ -169,12 +170,18 @@ h2,
 
 .bottom {
     justify-content: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 .banner button {
     border: 2px solid #E5E7EB;
     background-color: transparent;
     color: #E5E7EB;
+}
+
+.footer {
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
